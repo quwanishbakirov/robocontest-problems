@@ -29,9 +29,9 @@ public class Solution {
             }
             int y2 = in.nextInt();
         if((Math.abs(Integer.parseInt(x1)-Integer.parseInt(x2)) == 1 &&  Math.abs(y1 - y2) == 2) || (Math.abs(Integer.parseInt(x1) - Integer.parseInt(x2)) == 2 &&  Math.abs(y1 - y2) == 1)) {
-            System.out.println("YES");
+            System.out.println("AWA");
         } else {
-            System.out.println("NO");
+            System.out.println("YAQ");
         }
     }
 }
